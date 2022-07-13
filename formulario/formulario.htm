@@ -1,0 +1,219 @@
+<html>
+<head>
+<style type="text/css">
+.diaHoy{color:yellow;background-color:black;font-size:large}
+.otrosDias{background-color:#F5F5DC}
+.sMesAnio{background-color:#800000;color:yellow;font-size:xx-large}
+.sNomDiaSem{background-color:#A0522D;color:#FFFFFF;font-size:x-large}
+.pEstilo1{font-size:xx-large;color:#800000}
+.txtFoc{background-color:#DCDCDC;font-size:x-large}
+.txtBlu{background-color:#FFFFFF;font-size:x-large}
+.tblSuma{background-color:#FFFFFF;}
+.sNotErr{background-color:#800000;color:white;font-size:xx-large}
+.FondAmaColNeg{color:black;background-color:yellow;font-size:xx-large}
+.FondNegColAma{color:yellow;background-color:black;font-size:xx-large}
+.tblBorder{background-color:#FFFFFF;border-color:red;border-style:solid;border-width:3px}
+.sinJs{background-color:blue;color:yellow;}
+.cPrograma{color:red;background-color:black;font-size:xx-large}
+.cGris {background-color:#DCDCDC;border-color:red;border-style:dotted;border-width:3px}
+.cSumFoc{color:white;background-color:black;font-size:x-large}
+.cSumBlu{color:black;background-color:white;font-size:x-large}
+.fAcceso{border-color:blue;border-style:solid;border-width:3px}
+</style>
+<meta name="author" content="Armando Ramos M." />
+<meta name="description" content="Atributos HTM - Armando Ramos M." />
+<script src="https://cdn.jsdelivr.net/gh/xyaizknba/ArmandoRamos@v1/ar.js"></script>
+<title>Pagina HTML</title>
+</head>
+<body bgcolor="#F0FFF0"> 
+
+<h1>Sitio Web <a href="https://armandoramosmagana.blogspot.com" target="web">https://armandoramosmagana.blogspot.com</a></h1>
+<h1>Peque&ntilde;a demostracion de mi <a target="js" href="https://armandoramosmagana.blogspot.com/p/libreria-javascript.html">Libreria JavaScript</a>, el reto fue darle funcionalidad a esta pagina sin incluir nada de codigo <b>JavaScript</b>, metiendole JavaScript a la pagina la hago mas funcional</h1>
+
+<h1 align="center"><span data-ar-sal-dia="Buenos Dias" data-ar-sal-tar="Buenas Tardes" data-ar-sal-noc="Buenas Noches"></span></h1>
+<div align="right" id="calendario" data-chingon51="" data-chingon52="" data-chingon53="" data-chingon54="diaHoy" data-chingon55="otrosDias" data-chingon56="sMesAnio" data-chingon57="sNomDiaSem" data-chingon58="1" data-chingon59="1" data-chingon510="50%"></div>
+<br>
+
+<div align="center">
+<form>
+<table class="tblBorder">
+<tr align="center"><td class="pEstilo1" colspan="2">Formulario Reactivos &nbsp;<span data-ar-blink="3" data-ar-blink-vel="1" class="sinJs">Sin JavaScript</span></td></tr>
+<tr align="center"><td colspan="2" class="pEstilo1">Programacion: <span id="Armando" data-ar-txt-cambio="Notas de Remision,Sitios Web,PHP,Android" data-ar-txt-cambio-del="," data-ar-txt-cambio-vel="4"></span></td></tr>
+<tr>
+ <td>Programador:</td>
+ <td class="cPrograma"><span data-ar-tecleo-repeat="2" data-ar-tecleo-vel="1">Armando Ramos M.</span></td>
+</tr>
+<tr>
+ <td>Solo Num Entereos</td>
+ <td><input type="text" id="txtSoloNumEnt" data-Intvan-1="20" data-Intvan-2="0" data-Intvan-3="txtFoc" data-Intvan-4="txtBlu" data-Intvan-5="idErrorSoloNumEnt" size="5"><span id="idErrorSoloNumEnt" class="sNotErr"></span></td>
+</tr>
+<tr>
+ <td>Precio: (Numeros con Decimales)</td>
+ <td><input type="text" id="txtPutConPuntDec" data-Intvan-1="21" data-Intvan-2="0" data-Intvan-3="txtFoc" data-Intvan-4="txtBlu" data-Intvan-5="idErrorPutConPuntDec" size="5"><span id="idErrorPutConPuntDec" class="sNotErr"></span></td>
+</tr>
+<tr>
+ <td>Email del Trabajo:</td>
+ <td><input type="text" id="txtEmailSimple" class="txtBlu" size="60" data-kitana="El email esta mal" data-kitana-i="yoyReebeRznvy" data-chingon-f="txtFoc" data-chingon-b="txtBlu"><br><span id="lblErrorEmail" class="sNotErr"></span></td>
+</tr>
+<tr align="center"><td colspan="2">* En caso de ingresar una cadena para atacar el e-mail eliminara todos los espacios en blanco</td></tr>
+<tr>
+ <td>Codigo Postal:</td>
+ <td><input type="text" id="txtCodigoPostal" maxlength="5" size="5" class="txtBlu" data-terminator-1="lblMsgErrCodigoPostal" data-terminator-2="" data-chingon-f="txtFoc" data-chingon-b="txtBlu">&nbsp;<span id="lblMsgErrCodigoPostal" class="sNotErr"></span></td>
+</tr>
+<tr>
+ <td>Ingresa 2 Numeros: (Regresara el Numero Maximo)</td>
+ <td><input class="txtBlu" type="text" name="txtMax1" id="txtMax1" maxlength="5" size="5">&nbsp;&nbsp;<input class="txtBlu" type="text" name="txtMax2" id="txtMax2" maxlength="5" size="5">&nbsp;&nbsp;El Numero Maximo: <span id="maximo" class="pEstilo1" data-max1="gkgZnk" data-max2="1" data-max3="2" data-max4="gkgZnkvzbBphygb" data-chingon-f="txtFoc" data-chingon-b="txtBlu"></span><input type="hidden" name="txtMaximoOculto" id="txtMaximoOculto"></td>
+</tr>
+<tr>
+ <td>Multiplica 2 Numeros</td>
+ <td><input type="text" class="txtBlu" id="txtCantidad" name="txtCantidad" size="6" maxlength="6">&nbsp;&nbsp;<input type="text" class="txtBlu" id="txtPrecio" name="txtPrecio" size="6" maxlength="6">
+  El Resultado de la Multiplicacion es: <span id="idResMul" class="pEstilo1" data-mult1="gkgPnagvqnq" data-mult2="gkgCerpvb" data-mult3="gkgErfZhy" data-mult4="0" data-chingon-f="txtFoc" data-chingon-b="txtBlu"></span><input type="hidden" id="txtResMul"></td>
+</tr>
+<tr>
+ <td>Edad : (Validos 1 - 110)</td>
+ <td><input type="text" class="txtBlu" size="3" maxlength="3" name="txtEdad" id="txtEdad" data-chingon91="1" data-chingon92="110" data-chingon93="EdadErr" data-chingon94="Una Persona no puede vivir mas de 110 a&ntilde;os" data-chingon95="Dato Obligatorio" data-chingon96="1" data-chingon-f="txtFoc" data-chingon-b="txtBlu" ><span id="EdadErr" class="sNotErr"></span></td>
+</tr>
+ <tr>
+ <td>Tu Ubicacion Es:</td>
+ <td>
+   <input type="text" name="tGeL1" id="tGeL1" class="txtBlu">&nbsp;&nbsp;<input type="text" name="tGeL2" id="tGeL2" class="txtBlu"><span id="txtErrGeoloc" data-robo-cop="1"></span>
+ </td>
+</tr>
+<tr>
+ <td>Ingresa 3 Numeros: (Se Sumaran)</td>
+ <td>
+  <input type="text" name="txtXSum1" id="txtXSum1" class="cSumBlu" size="6" maxlength="6">&nbsp;&nbsp;<input type="text" name="txtXSum2" id="txtXSum2" class="txtBlu" size="6" maxlength="6">&nbsp;&nbsp;<input type="text" name="txtXSum3" id="txtXSum3" class="txtBlu" size="6" maxlength="6">
+  La Suma es: <span id="lblXResultado" class="pEstilo1" data-chingon61="gkgKBphygb" data-chingon62="gkgKFhz" data-chingon63="1" data-chingon64="3" data-chingon65="1" data-chingon-f="cSumFoc" data-chingon-b="cSumBlu"></span><input type="hidden" name="txtXOculto" id="txtXOculto">
+ </td>
+</tr>
+<tr>
+ <td>Ingresa la Fecha: (Dia-Mes-A&ntilde;o)</td>
+ <td><input class="txtBlu" type="text" name="txtDia_t" size="2" id="txtDia_t" data-mazinger-z="txtDia_t,txtMes_t,txtAnio_t" data-mazinger-z-1="lblErrorFecha_T" data-mazinger-z-2="Fecha Incorrecta" data-mazinger-z-3="txtFechaHidden_T" data-chingon-f="txtFoc" data-chingon-b="txtBlu">-<input type="text" class="txtBlu" size="2" name="txtMes_t" id="txtMes_t">-:<input type="text" class="txtBlu" size="4" name="txtAnio_t" id="txtAnio_t"> <input type="text" name="txtFechaHidden_T" id="txtFechaHidden_T" size="10" maxlength="10"><br><span id="lblErrorFecha_T" class="sNotErr FntZ8"></span></td>
+</tr>
+<tr>
+ <td>Multiplicacion por </td>
+ <td>Cantidad :<select id="cboCantidad" class="txtBlu" data-ar-jayden="1" data-ar-jayden-1="yoyCerpvbGbgny" data-ar-jayden-2="gkgCerpvbC" data-chingon-f="txtFoc" data-chingon-b="txtBlu"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="15">15</option><option value="20">20</option></select>  Precio :<input type="text" class="txtBlu" id="txtPrecioP" value="30" size="6" maxlength="6"> -> <span class="pEstilo1" id="lblPrecioTotal"></span></td>
+</tr>
+<tr>
+ <td>
+  <span id="cTrX" data-ar-rad-hid="divCt1,divCt2"></span> Deporte Preferido:<br>
+  Basquetboll <input type="radio" name="optcTrX" data-ar-id-vis="divCt1" data-ar-ids-vis="cTrX">&nbsp;&nbsp;
+  Futboll <input type="radio" name="optcTrX" data-ar-id-vis="divCt2" data-ar-ids-vis="cTrX"> 
+ </td>
+ <td class="cGris">
+   <div id="divCt1">
+    <p>Deporte Jugado por equipos de 5 Jugadores (En Chancha)</p>
+    <p>El promedio de Altura es el mas alto en los deportes de Equipo</p>
+    <p>Los Chicago Bulls Son el mejor Equipo de la Historia (Estadisticamente)</p>
+   </div>
+   <div id="divCt2">
+    <p>Deporte Jugado por equipos de 11 Jugadores (En Chancha)</p>
+    <p>Los Equipos de Futboll mas populares en Mexico son:</p>
+    <ol>
+     <li>Las Aguilas del America</li>
+     <li>Las Chivas del Guadalajara</li>
+    </ol>
+   </div>
+ </td>
+</tr>
+<tr>
+ <td>Comentario:</td>
+ <td>
+  <textarea name="txtComentario2" class="txtBlu" data-kenshi="3" id="txtComentario2" cols="55" rows="4" data-chingon-f="txtFoc" data-chingon-b="txtBlu"></textarea> <br>
+   Pega la siguiente cadena en el campo Comentario
+   <br><span>&lt;script&gt; alert("Ataque javaScript"); &lt;/script&gt; &lt;h1&gt;Ataque HTML&lt;/h1&gt; SELECT nombre, paterno FROM usuario;</span>  
+ </td>
+</tr>
+<tr>
+ <td>Confirmar Email: (Ingresalo 2 Veces)</td>
+ <td>
+  <input class="txtBlu" type="text" name="txtCorreoNike" id="txtCorreoNike" size="60"><br>
+  <input class="txtBlu" type="text" name="txtCorreoNikeConf" id="txtCorreoNikeConf" size="60"><br>
+  <span id="lblCorreoNikeError" data-chingon01="gkgPbeerbAvxr" data-chingon02="gkgPbeerbAvxrPbas" data-chingon03="E-Mail Incorrecto" data-chingon-f="txtFoc" data-chingon-b="txtBlu" class="sNotErr"></span>
+ </td>
+</tr>
+
+<tr>
+ <td>
+    Otros Datos:
+    <select data-ar-sel-div="1" class="txtBlu">
+     <option value=""></option>
+     <option value="idFrm1">Promedio</option>
+     <option value="idFrm2">Fecha Pago</option>
+    </select> 
+ </td>
+ <td>
+    <div id="idFrm1">
+     <div align="center">
+      <h1>Promedio</h1>
+      <table>
+       <tr>
+        <td>Teclea 3 Cantidades: (Obtendras el Promedio)</td>
+        <td>
+          <input type="text" name="txtXPor1" id="txtXPor1" class="txtBlu" size="4" maxlength="4">&nbsp;&nbsp;<input type="text" name="txtXPor2" id="txtXPor2" class="txtBlu" size="4" maxlength="4">&nbsp;&nbsp;<input type="text" name="txtXPor3" id="txtXPor3" class="txtBlu" size="4" maxlength="4"><br>Promedio: <span id="lblXResultadoPct" data-chingon81="txtXOculto2" data-chingon82="txtXPor" data-chingon83="1" data-chingon84="3" data-chingon85="1" data-chingon-f="txtFoc" data-chingon-b="txtBlu"  class="pEstilo1"></span> <input type="hidden" name="txtXOculto2" id="txtXOculto2">
+        </td>
+       </tr>
+      </table>
+     </div>  
+    </div>
+    <div id="idFrm2">
+     <div align="center">
+      <table>
+       <tr>
+         <td>Fecha de Pago:</td>
+         <td>
+              <select class="txtBlu" id="cboFecha_Anio" name="cboFecha_Anio" data-chingon11="Fecha_" data-chingon12="Fecha Incorrecta" data-chingon13="idMsgFechaError"><option value="0"></option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option><option value="2025">2025</option><option value="2026">2026</option></select>
+              <select class="txtBlu" id="cboFecha_Mes"><option value="-1"></option><option value="0">Enero</option><option value="1">Febrero</option><option value="2">Marzo</option><option value="3">Abril</option><option value="4">Mayo</option><option value="5">Junio</option><option value="6">Julio</option><option value="7">Agosto</option><option value="8">Septiembre</option><option value="9">Octubre</option><option value="10">Noviembre</option><option value="11">Diciembre</option></select>
+              <select class="txtBlu" id="cboFecha_Dia"><option value="0"></option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select>
+              <span class="sNotErr" id="idMsgFechaError"></span>
+         </td>
+       </tr>
+       <tr><td colspan="2">Este Control Selecciona la Fecha Actual y Muestra un mensaje de Error si la Fecha es Incorrecta</td></tr>
+      </table>
+     </div>
+    </div> 
+ </td>
+</tr>
+<tr align="center">
+<td colspan="2">
+ Activa el checkbox para habilitar el Boton&nbsp;&nbsp;<input type="checkbox" data-kung-lao="Lirio" data-kung-lao-1="0" id="chkBorrar" data-ar-cls-momov="FondAmaColNeg" data-ar-cls-moout="FondNegColAma">Borrar  <input type="button" value="Borrar" id="Lirio">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+
+
+<table>
+ <tr>
+  <td>
+    Imagen 1: <input checked type="radio" name="optImg" data-ar-opt-img="mazingerz.jpg" data-ar-opt-img-id="mk" data-ar-opt-img-desc="Mazinger Z" data-ar-opt-span-desc="imgDesc" />&nbsp;
+    Imagen 2: <input type="radio" name="optImg" data-ar-opt-img="granmazinger.jpg" data-ar-opt-img-id="mk" data-ar-opt-img-desc="Gran Mazinger" data-ar-opt-span-desc="imgDesc" />&nbsp;
+    Imagen 3: <input type="radio" name="optImg" data-ar-opt-img="mazinkaizer.jpg" data-ar-opt-img-id="mk" data-ar-opt-img-desc="Mazinkaizer" data-ar-opt-span-desc="imgDesc" />&nbsp;
+  </td>
+  <td>
+     <img src="mazingerz.jpg" id="mk" />
+     <span id="imgDesc" class="pEstilo1">Mazinger Z</span>   
+  </td>
+ </tr>
+</table>
+
+
+
+
+
+<div align="center" class="fAcceso">
+<p class="pEstilo1">Has Visitado esta Pagina <span data-ar-visit="1"></span> veces desde el <span id="idPrimerAcceso" data-paccess1="cevzNpprfb" data-paccess2="5" data-paccess3="-"></span></p>
+<span data-fatality-1="diaHoy" data-fatality-2="otrosDias" data-fatality-3="sMesAnio" data-fatality-4="sNomDiaSem" data-fatality-5="80%" data-fatality-6="0" data-fatality-7="1" data-fatality-8="cevzNpprfb" data-fatality-9="2" data-fatality-0="Wnlqra" ></span>
+<div id="Jayden"></div>
+<div>
+
+
+ 
+
+
+
+<p align="center" class="pEstilo1">Fecha creacion de esta Pagina :<span data-ar-doc-modif="5"></span></p>
+<p>Programador : <span id="prgAR">Armando Ramos M.</span></p></body></html>
